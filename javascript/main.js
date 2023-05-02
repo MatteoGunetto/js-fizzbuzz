@@ -27,6 +27,22 @@ for(let i = 1; i <= 100; i++)
     else{
         console.log(i);
     }
+    const numero =document.createElement("span");
+    numero.append(i)
+    contenitore.append(numero)
+
+    // const fizz =document.createElement("span");
+    // numero.append(fizz)
+    // contenitore.append(fizz)
+
+    // const buzz =document.createElement("span");
+    // numero.append(buzz)
+    // contenitore.append(buzz)
+
+    // const fizzbuzz =document.createElement("span");
+    // numero.append(fizzbuzz)
+    // contenitore.append(fizzbuzz)
+
 
    
     

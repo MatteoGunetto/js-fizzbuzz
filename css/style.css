@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
+    h1{
+        text-align: center;
+        background-color: teal;
+        color: white;
+
+    }
+#contenitore{
+    background-color: teal;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contenitore span{
+    width: calc(10% - 10px);
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+}
