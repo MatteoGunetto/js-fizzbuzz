@@ -6,18 +6,27 @@
         text-align: center;
         background-color: teal;
         color: white;
+        font-size: 50px;
+        padding-top: 80px;
 
     }
 #contenitore{
     background-color: teal;
+    padding: 150px;
     display: flex;
     flex-wrap: wrap;
 }
 #contenitore span{
     width: calc(10% - 10px);
-    height: 50px;
+    height: 80px;
     margin: 5px;
     display: flex;
     justify-content: center;
-    background-color: brown;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 214, 226);
+    font-weight: bold;
+}
+.colore{
+    border-radius: 10px;
 }

@@ -8,41 +8,30 @@ const contenitore = document.getElementById("contenitore");
 console.log(contenitore);
 
 
-    const number = document.querySelector('.number');
-    const fizzbuzz = document.querySelector('.fizzbuzz');
-    const fizz = document.querySelector('.fizz');
-    const buzz = document.querySelector('.buzz');
-
 for(let i = 1; i <= 100; i++)
 {
+    let text;
     if (i % 15 == 0){
-        console.log("FizzBuzz");
+        text="FizzBuzz";
+
     }
     else if (i % 3 == 0){
-        
-        console.log("Fizz");
+        text= "Fizz";
+        fizz= "fizz";
+
     }else if (i % 5 == 0){
-        console.log("Buzz");
+        text="Buzz";
     }
     else{
-        console.log(i);
+        text= i;
     }
+
+    console.log(text)
+
     const numero =document.createElement("span");
-    numero.append(i)
+    numero.classList.add("colore")
+    numero.append(text)
     contenitore.append(numero)
-
-    // const fizz =document.createElement("span");
-    // numero.append(fizz)
-    // contenitore.append(fizz)
-
-    // const buzz =document.createElement("span");
-    // numero.append(buzz)
-    // contenitore.append(buzz)
-
-    // const fizzbuzz =document.createElement("span");
-    // numero.append(fizzbuzz)
-    // contenitore.append(fizzbuzz)
-
 
    
     
